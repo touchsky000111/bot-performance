@@ -19,7 +19,7 @@ const BotPerformance = () => {
         date: new Date().toLocaleDateString(),
         long: "ETH",
         short: "BTC",
-        netProfit: 12.5,
+        netProfit: 0,
     });
 
     const [botHistory] = useState<TradeData[]>([
